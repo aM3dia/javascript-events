@@ -3,33 +3,33 @@ header {
     justify-content: center;
 }
 
+/*grid/event styling*/
+
 #grid {
     display: grid;
     grid-template-columns: auto;
     gap: 5px;
     padding: 5px;
     border: 1px solid red;
+    margin: 0 50px 0 50px;
 }
 
 .event-container {
     border: 1px solid purple;
-    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
 }
 
-/*mouse events*/
+h2 {
+    margin: 0;
+}
 
-
-/*keyboard events*/
-
-
-/*form events*/
-
-
-/*focus events*/
-
-
-/*event delegation*/
-
+.event-container p {
+    width: 70%;
+    text-align: center;
+}
 
 /*footer*/
 footer {
