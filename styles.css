@@ -1,3 +1,21 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.event-container {
+    border: 1px solid purple;
+    height: 100px;
+}
+
 /*mouse events*/
 
 
@@ -11,3 +29,10 @@
 
 
 /*event delegation*/
+
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+}
