@@ -4,7 +4,6 @@ header {
 }
 
 /*grid/event styling*/
-
 #grid {
     display: grid;
     grid-template-columns: auto;

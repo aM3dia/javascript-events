@@ -7,7 +7,7 @@ hoverButton.addEventListener('mouseenter', () => {
 });
 //mouse not hovering
 hoverButton.addEventListener('mouseleave', () => {
-    hoverMessage.textContent = "You are not hovering on the button!";
+    hoverMessage.textContent = "You are NOT hovering on the button!";
 });
 
 //keyboard events
