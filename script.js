@@ -43,3 +43,23 @@ focusInput.addEventListener('blur', () => {
 });
 
 //event delegation
+const btnContainer = document.getElementById('button-container');
+const delegateMsg = document.getElementById('btn-msg');
+
+btnContainer.addEventListener('click', (event) => {
+    if (event.target.tagName === 'BUTTON') {
+        switch (event.target.id) {
+            case 'class-name':
+                delegateMsg.textContent = "Fundamentals of JavaScript";
+                break;
+            case 'due-date':
+                delegateMsg.textContent = "November 23, 2024";
+                break;
+            case 'joke':
+                delegateMsg.textContent = "Autocorrect can go straight to he'll.";
+                break;
+            default:
+                delegateMsg.textContent = "";
+        }
+    }
+});
