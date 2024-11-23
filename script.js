@@ -11,7 +11,12 @@ hoverButton.addEventListener('mouseleave', () => {
 });
 
 //keyboard events
-
+const keyboardInput = document.getElementById('keyboard-input');
+const keyboardKey = document.getElementById('keyboard-btn');
+//display keys being pressed
+keyboardInput.addEventListener('keydown', (event) => {
+    keyboardKey.textContent = `${event.key}`;
+});
 
 //form events
 
