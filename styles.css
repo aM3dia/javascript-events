@@ -30,6 +30,13 @@ h2 {
     text-align: center;
 }
 
+/*keyboard events*/
+#keyboard-btn {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
 /*footer*/
 footer {
     display: flex;
