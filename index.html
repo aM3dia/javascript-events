@@ -23,11 +23,17 @@
             <h2>Keyboard Events</h2>
             <p>This function captures input from a text field, displaying the last key pressed.</p>
             <input type="text" id="keyboard-input" placeholder="Type something">
-            <p>The last key pressed was:</p><p id="keyboard-btn"></p>
+            <p>The last key pressed was:</p><p id="keyboard-msg"></p>
         </div>
         <!--form events-->
-        <div class="event-container">
-
+        <div class="event-container" id="form-events">
+            <h2>Form Events</h2>
+            <p>This event handles form submission, preventing the default behavior and displaying a submission message.</p>
+            <form id="form">
+                <input type="text" id="form-input" placeholder="Type something">
+                <button type="submit">Submit</button>
+            </form>
+            <p id="formMsg"></p>
         </div>
         <!--focus evvents-->
         <div class="event-container">

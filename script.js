@@ -12,14 +12,23 @@ hoverButton.addEventListener('mouseleave', () => {
 
 //keyboard events
 const keyboardInput = document.getElementById('keyboard-input');
-const keyboardKey = document.getElementById('keyboard-btn');
+const keyboardMsg = document.getElementById('keyboard-msg');
 //display keys being pressed
 keyboardInput.addEventListener('keydown', (event) => {
-    keyboardKey.textContent = `${event.key}`;
+    keyboardMsg.textContent = `${event.key}`;
 });
 
 //form events
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('form');
+    const formMsg = document.getElementById('formMsg');
 
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        formMsg.textContent = "Form successfully submitted!";
+
+    });
+});
 
 //focus events
 
