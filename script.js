@@ -31,6 +31,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //focus events
-
+const focusInput = document.getElementById('focus-input');
+const focusMsg = document.getElementById('focus-msg');
+//focus
+focusInput.addEventListener('focus', () => {
+    focusMsg.textContent = "Input field is in focus.";
+});
+//blur
+focusInput.addEventListener('blur', () => {
+    focusMsg.textContent = "Input field is blurred!";
+});
 
 //event delegation
