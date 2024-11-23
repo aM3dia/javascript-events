@@ -1,6 +1,6 @@
 //mouse events
 const hoverButton = document.getElementById('hover-btn');
-const hoverMessage = document.getElementById('change-msg');
+const hoverMessage = document.getElementById('reveal-msg');
 //mouse hovering
 hoverButton.addEventListener('mouseenter', () => {
     hoverMessage.textContent = "You are hovering on the button!";
@@ -21,7 +21,7 @@ keyboardInput.addEventListener('keydown', (event) => {
 //form events
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('form');
-    const formMsg = document.getElementById('formMsg');
+    const formMsg = document.getElementById('form-msg');
 
     form.addEventListener('submit', (event) => {
         event.preventDefault();

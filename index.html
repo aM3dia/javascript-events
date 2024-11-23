@@ -17,13 +17,15 @@
             <h2>Mouse Events</h2>
             <p id="change-msg">This function demonstrates the detection of when the mouse is hovering on the button and off the button, displaying a message based on the state of the mouse.</p>
             <button id="hover-btn">Reveal</button>
+            <p id="reveal-msg"></p>
         </div>
         <!--keyboard events-->
         <div class="event-container" id="keyboard-event">
             <h2>Keyboard Events</h2>
             <p>This function captures input from a text field, displaying the last key pressed.</p>
             <input type="text" id="keyboard-input" placeholder="Type something">
-            <p>The last key pressed was:</p><p id="keyboard-msg"></p>
+            <p>The last key pressed was:</p>
+            <p id="keyboard-msg"></p>
         </div>
         <!--form events-->
         <div class="event-container" id="form-events">
@@ -33,14 +35,15 @@
                 <input type="text" id="form-input" placeholder="Type something">
                 <button type="submit">Submit</button>
             </form>
-            <p id="formMsg"></p>
+            <p id="form-msg"></p>
         </div>
         <!--focus & blur events-->
         <div class="event-container" id="focus-blur">
             <h2>Focus & Blur Events</h2>
             <p>This function updates a message when an input fields gains or loses focus.</p>
             <input type="text" id="focus-input" placeholder="Type something">
-            <p id="focus-msg">Click the input field to focus/blur this message.</p>
+            <p>Click the input field to focus.</p>
+            <p id="focus-msg"></p>
         </div>
         <!--event delegation-->
         <div class="event-container">
