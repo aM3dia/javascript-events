@@ -30,11 +30,36 @@ h2 {
     text-align: center;
 }
 
+/*mouse events*/
+#reveal-msg {
+    font-weight: bold;
+    color: green;
+}
+
 /*keyboard events*/
 #keyboard-msg {
     font-weight: bold;
+    color: green;
     margin: 0;
     padding: 0;
+}
+
+/*form events*/
+#form-msg {
+    font-weight: bold;
+    color: green;
+}
+
+/*focus & blur*/
+#focus-msg {
+    font-weight: bold;
+    color: green;
+}
+
+/*event delegation*/
+#btn-msg {
+    font-weight: bold;
+    color: green;
 }
 
 /*footer*/
